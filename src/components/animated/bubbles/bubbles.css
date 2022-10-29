@@ -1,0 +1,147 @@
+.bubble {
+    position: relative;
+}
+
+.bubble1 {
+    left: 117px;
+    bottom: 580px;
+    height: 35px;
+    width: 35px;
+    z-index: 49;
+    animation: firstAnim 6s linear 0s infinite alternate;
+}
+
+.bubble2 {
+    left: 115px;
+    bottom: 512px;
+    height: 68px;
+    width: 68px;
+    z-index: 51;
+    animation: secondAnim 5s linear 0s infinite alternate;
+}
+
+.bubble3 {
+    left: -60px;
+    bottom: 293px;
+    height: 30px;
+    width: 30px;
+    z-index: 50;
+    animation: fifthAnim 5s linear 0s infinite alternate;
+}
+
+.bubble4 {
+    left: 165px;
+    bottom: 181px;
+    height: 64px;
+    width: 64px;
+    z-index: 49;
+    animation: seventhAnim 5s linear 0s infinite alternate;
+}
+
+.bubble5 {
+    left: 130px;
+    bottom: 130px;
+    height: 55px;
+    width: 130px;
+    z-index: 62;
+    animation: eighthAnim 4s linear 0s infinite alternate;
+}
+
+.pink1 {
+    left: 0;
+    bottom: 697px;
+    height: 33px;
+    width: 33px;
+    z-index: 49;
+    animation: thirdAnim 5s linear 0s infinite alternate;
+}
+
+.pink2 {
+    left: 127px;
+    bottom: 630px;
+    height: 105px;
+    width: 105px;
+    z-index: 49;
+    animation: fourthAnim 5s linear 0s infinite alternate;
+}
+
+.pink3 {
+    left: -39px;
+    bottom: 479px;
+    height: 71px;
+    width: 71px;
+    z-index: 51;
+    animation: sixthAnim 4s linear 0s infinite alternate;
+}
+
+@keyframes firstAnim {
+    from {
+        transform: translateX(0) translateY(0);
+    }
+    to {
+        transform: translateX(30px) translateY(40px);
+    }
+}
+
+@keyframes secondAnim {
+    from {
+        transform: translateX(0) translateY(0) scale(1);
+    }
+    to {
+        transform: translateX(40px) translateY(30px) scale(0.9);
+    }
+}
+
+@keyframes thirdAnim {
+    from {
+        transform: translateX(40px) translateY(40px);
+    }
+    to {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes fourthAnim {
+    from {
+        transform: translateX(0) translateY(0) translateZ(0) scale(0.9);
+    }
+    to {
+        transform: translateX(30px) translateY(30px) translateZ(30px) scale(1);
+    }
+}
+
+@keyframes fifthAnim {
+    from {
+        transform: translateX(40px) translateY(40px);
+    }
+    to {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes sixthAnim {
+    from {
+        transform: translateX(0) translateY(0) translateZ(0) scale(1.1);
+    }
+    to {
+        transform: translateX(0) translateY(20px) translateZ(40px) scale(0.9);
+    }
+}
+
+@keyframes seventhAnim {
+    from {
+        transform: translateX(20px) translateY(0);
+    }
+    to {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes eighthAnim {
+    from {
+        transform: translateX(0) translateY(0) translateZ(0) scale(1);
+    }
+    to {
+        transform: translateX(0) translateY(10px) translateZ(30px) scale(0.7);
+    }
+}
